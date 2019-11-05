@@ -41,6 +41,8 @@ npm run scss-prod
 
 This will create a minified version of the css in the css folder. The index.html file will then need to be updated with the link to this file.
 
+## To view the stat card
+
 To view the stat card, open a command prompt and navigate to the root folder of the project, (inside the folder with the package.json file).
 Then run:
 
