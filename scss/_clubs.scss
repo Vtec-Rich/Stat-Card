@@ -1,0 +1,31 @@
+body {
+	.player-stat-container {
+		.player-info {
+			/* Spurs */
+			#player-badge.club-21 {
+				@include background-image("../assets/badges_sprite.png", -500px -1000px, $white);
+			}
+
+			/* Man City */
+			#player-badge.club-11 {
+				@include background-image("../assets/badges_sprite.png", -800px -700px, $white);
+			}
+
+			/* Man Utd */
+			#player-badge.club-12 {
+				@include background-image("../assets/badges_sprite.png", -600px -800px, $white);
+			}
+
+			/* Arsenal */
+			#player-badge.club-1 {
+				@include background-image("../assets/badges_sprite.png", -100px -100px, $white);
+			}
+
+			/* Leicester */
+			#player-badge.club-26 {
+				@include background-image("../assets/badges_sprite.png", 0 0, $white);
+			}
+		}
+	}
+}
+

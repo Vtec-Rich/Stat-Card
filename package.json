@@ -1,0 +1,16 @@
+{
+  "name": "stat-card",
+  "version": "1.0.0",
+  "description": "Pulselive Stat card",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-dev": "node-sass --output-style expanded --watch scss -o app/css",
+    "scss-prod": "node-sass --output-style compressed scss/main.scss > app/css/main.min.css"
+  },
+  "author": "R. Warmingham",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

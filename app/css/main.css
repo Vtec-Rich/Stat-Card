@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+body .player-stat-container {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+  color: #FFF;
+  background: url("../assets/background-pattern.png") 0 0 no-repeat;
+}
+
+body .player-stat-container label {
+  position: absolute;
+  left: -9999px;
+}
+
+body .player-stat-container .player-select {
+  width: 90%;
+  margin: 0 auto;
+  background: #eaeaea;
+  padding: 10px;
+  border: none;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body .player-stat-container .player-img-container {
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  margin: 25px 0 0 0;
+}
+
+body .player-stat-container .player-img-container img {
+  width: 170px;
+  float: left;
+}
+
+body .player-stat-container .player-info {
+  background-color: #e90052;
+  padding: 15px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+body .player-stat-container .player-info #player-badge {
+  background: url("../assets/badges_sprite.png") 0 0 no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  top: -56px;
+  border-radius: 50px;
+  transform: scale(0.8);
+}
+
+body .player-stat-container .player-info span {
+  width: 100%;
+  display: block;
+}
+
+body .player-stat-container .player-info .player-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+body .player-stat-container .player-info .player-position {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+body .player-stat-container .player-info .player-detail div {
+  background: #FFF;
+  color: #38003c;
+  margin: 2px 0 0 0;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+body .player-stat-container .player-info .player-detail div span {
+  width: auto;
+  float: right;
+  font-weight: 700;
+}
+
+body .player-stat-container .player-info {
+  /* Spurs */
+  /* Man City */
+  /* Man Utd */
+  /* Arsenal */
+  /* Leicester */
+}
+
+body .player-stat-container .player-info #player-badge.club-21 {
+  background-image: url("../assets/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-position: -500px -1000px;
+  background-color: #FFF;
+}
+
+body .player-stat-container .player-info #player-badge.club-11 {
+  background-image: url("../assets/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-position: -800px -700px;
+  background-color: #FFF;
+}
+
+body .player-stat-container .player-info #player-badge.club-12 {
+  background-image: url("../assets/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-position: -600px -800px;
+  background-color: #FFF;
+}
+
+body .player-stat-container .player-info #player-badge.club-1 {
+  background-image: url("../assets/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-position: -100px -100px;
+  background-color: #FFF;
+}
+
+body .player-stat-container .player-info #player-badge.club-26 {
+  background-image: url("../assets/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #FFF;
+}

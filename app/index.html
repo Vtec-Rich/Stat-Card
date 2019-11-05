@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pulselive Player Stat Card</title>
+  <meta name="description" content="Interactive Player Stat Card">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/main.css">
+  <!-- for production: 
+  <link rel="stylesheet" href="css/main.min.css">
+  -->
+</head>
+
+<body>
+
+	<div class="player-stat-container">
+		<label for="player-select">Select a player</label>
+		<select class="player-select" id="player-select">
+			<option>Select a player...</option>
+		</select>
+		<div class="player-img-container">
+			<img src="" id="main-player-img" />
+		</div>
+		<div class="player-info">
+			<div id="player-badge"></div>
+			<span class="player-name" id="player-name"></span>
+			<span class="player-position" id="player-position"></span>
+			<div class="player-detail">
+				<div>Appearances<span id="apps"></span></div>
+				<div>Goals<span id="goals"></span></div>
+				<div>Assists<span id="assists"></span></div>
+				<div>Goals per match<span id="gpm"></span></div>
+				<div>Passes per minute<span id="ppm"></span></div>
+			</div>
+		</div>
+	</div>
+  
+<script src="js/main.js"></script>
+
+</body>
+</html>
